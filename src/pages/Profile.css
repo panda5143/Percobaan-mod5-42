@@ -1,0 +1,48 @@
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Adjust height to avoid overlapping with menus */
+    padding: 50px 0; /* Add padding to avoid touching the top and bottom menus */
+    background-color: #282c34; /* Dark background for contrast */
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 20px; /* Add space between profile cards */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 1.5em;
+    color: #333; /* Dark text color for better readability */
+}
+
+.profile-bio {
+    font-size: 1em;
+    color: #666; /* Lighter text color */
+    margin: 10px 0;
+}
+
+.profile-info {
+    font-size: 0.9em;
+    color: #444; /* Slightly darker text color for contrast */
+    margin-top: 10px; /* Add margin to the top for better spacing */
+}
+
+.profile-info p {
+    margin: 5px 0; /* Adjust margin for better spacing between info items */
+}

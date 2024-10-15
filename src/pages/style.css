@@ -1,0 +1,23 @@
+#anime, #books, #games {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.containerTop {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.rowcoba {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.column {
+    margin: 20px 0;
+}
+
+/* Additional specific styles can be added here if needed */
